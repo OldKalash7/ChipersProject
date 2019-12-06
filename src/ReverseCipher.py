@@ -8,10 +8,10 @@ def main():
     print('ENTER A STRING TO ENCRYPT: ')
     message = str(input())
     print('THIS IS YOUR MESSAGE ENCRYPTED, COPIED TO CLIPBOARD')
-    print(reversechipher(message))
+    print(reversecipher(message))
 
 
-def reversechipher(message):
+def reversecipher(message):
     encrypted = ''
     i = len(message) - 1
     while i >= 0:
